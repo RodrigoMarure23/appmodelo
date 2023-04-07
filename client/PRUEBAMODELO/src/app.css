@@ -1,0 +1,80 @@
+#root {
+  max-width: 100vmax;
+  margin: 0 auto;
+  
+}
+
+.centrar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body{
+  background-color: lightgrey;
+}
+
+.imagenfondo{
+  background-image:url("./assets/lista-tienda.jpg");
+  background-repeat: repeat;
+  height: 800px;
+  background-position: center center;
+  background-size:auto;
+}
+
+.imagenfondoabout{
+  background-image:url("./assets/fondo1.jpg");
+  background-repeat: repeat;
+  height: 8000px;
+  background-position: center center;
+  background-size:auto;
+}
+.imagenfondoproducts{
+  background-image:url("./assets/fondo3.png");
+  background-repeat: repeat;
+  height: 7000px;
+  background-position: center center;
+  background-size:auto;
+}
+.imagenfondocartshop{
+  background-image:url("./assets/fondo2.png");
+  background-repeat: repeat;
+  height: 7000px;
+  background-position: center center;
+  background-size:auto;
+}
+.fuente{
+  font-weight: bold;
+}
+
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+ 
+}
+
+html, body{
+  width: 100%;
+  height:100%;
+  
+  
+}
+
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+img.redondo {
+  border-radius: 50%;
+}
